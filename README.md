@@ -8,7 +8,7 @@ Api Docs https://github.com/contentful/contentful-migration/blob/master/README.m
 
 ### Howto
 
-Add migration function to migrations directory follwing the naming convention. ##-task-name.ts
+Add migration function to migrations directory following the naming convention. ##-task-name.ts
 
 #### Example
 
@@ -20,7 +20,10 @@ export default function (migration: Migration) {
     name: 'Fish'
   });
 
-  model.createField('name').name('Name').type('Symbol').required(true);
+  model.createField('name')
+    .name('Name')
+    .type('Symbol')
+    .required(true);
 }
 ```
 
