@@ -15,7 +15,7 @@ const options: RunMigrationConfig = {
 
 async function main() {
   const args: string[] = process.argv.slice(2);
-  const deleteFirst = args[0] === 'clean';
+  const deleteFirst = args[0] === 'cleanup';
 
   fs.readdir('./migrations', (_err, files) => {
     files
