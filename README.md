@@ -4,6 +4,8 @@ Run multiple content ful migration
 
 See https://www.contentful.com/developers/docs/tutorials/cli/scripting-migrations/
 
+Api Docs https://github.com/contentful/contentful-migration/blob/master/README.md#reference-documentation
+
 ### Howto
 
 Add migration function to migrations directory follwing the naming convention. ##-task-name.ts
